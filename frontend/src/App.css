@@ -1,0 +1,18 @@
+body { margin: 0; font-family: Arial, Helvetica, sans-serif; background: #f5f6f8; color: #222; }
+.menu { display: flex; align-items: center; justify-content: space-between; padding: 0 24px; background: #2c3e50; color: #fff; }
+.menu h1 { font-size: 20px; }
+.menu nav a { color: #cfd8e3; margin-left: 20px; text-decoration: none; font-weight: bold; }
+.menu nav a.active { color: #fff; border-bottom: 2px solid #fff; }
+.conteudo { max-width: 960px; margin: 24px auto; padding: 0 16px; }
+.cabecalho { display: flex; align-items: center; justify-content: space-between; }
+table { width: 100%; border-collapse: collapse; background: #fff; }
+th, td { padding: 10px; border-bottom: 1px solid #e3e6ea; text-align: left; }
+th { background: #ecf0f3; }
+button, .btn { padding: 6px 12px; margin-right: 6px; border: 1px solid #bbb; border-radius: 4px; background: #fff; cursor: pointer; font-size: 14px; }
+.btn { background: #2c7be5; color: #fff; border-color: #2c7be5; text-decoration: none; display: inline-block; }
+.perigo { color: #c0392b; border-color: #c0392b; }
+form { background: #fff; padding: 20px; border-radius: 6px; max-width: 480px; }
+label { display: block; margin-bottom: 14px; font-weight: bold; }
+input, select { display: block; width: 100%; padding: 8px; margin-top: 4px; box-sizing: border-box; font-weight: normal; }
+.acoes { margin-top: 10px; }
+.erro { color: #c0392b; background: #fdecea; padding: 8px; border-radius: 4px; }
